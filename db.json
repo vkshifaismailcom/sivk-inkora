@@ -1,0 +1,457 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": "book-1",
+      "title": "It Ends with Us",
+      "author": "Colleen Hoover",
+      "price": 399,
+      "category": "Romance",
+      "description": "A powerful story about love, choices and difficult relationships.",
+      "stock": 15
+    },
+    {
+      "id": "book-2",
+      "title": "The Love Hypothesis",
+      "author": "Ali Hazelwood",
+      "price": 449,
+      "category": "Romance",
+      "description": "A romantic comedy involving a scientist, a fake relationship and unexpected feelings.",
+      "stock": 12
+    },
+    {
+      "id": "book-3",
+      "title": "Me Before You",
+      "author": "Jojo Moyes",
+      "price": 399,
+      "category": "Romance",
+      "description": "An emotional story about two people whose lives change after meeting each other.",
+      "stock": 10
+    },
+    {
+      "id": "book-4",
+      "title": "The Notebook",
+      "author": "Nicholas Sparks",
+      "price": 349,
+      "category": "Romance",
+      "description": "A timeless story of love, memories and devotion.",
+      "stock": 14
+    },
+    {
+      "id": "book-5",
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "price": 399,
+      "category": "Romance",
+      "description": "A moving story about love, life and finding meaning in difficult circumstances.",
+      "stock": 16
+    },
+    {
+      "id": "book-6",
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "price": 449,
+      "category": "Romance",
+      "description": "A story about connection, relationships and the complicated nature of growing up.",
+      "stock": 11
+    },
+    {
+      "id": "book-7",
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "price": 499,
+      "category": "Romance",
+      "description": "An aging Hollywood star reveals the secrets behind her extraordinary life.",
+      "stock": 9
+    },
+    {
+      "id": "book-8",
+      "title": "The Spanish Love Deception",
+      "author": "Elena Armas",
+      "price": 449,
+      "category": "Romance",
+      "description": "A fake-dating romance that turns into something much more complicated.",
+      "stock": 13
+    },
+    {
+      "id": "book-9",
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "price": 499,
+      "category": "Thriller",
+      "description": "A psychological thriller surrounding a woman who refuses to speak after a shocking crime.",
+      "stock": 10
+    },
+    {
+      "id": "book-10",
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "price": 499,
+      "category": "Thriller",
+      "description": "A dark psychological thriller about marriage, disappearance and deception.",
+      "stock": 12
+    },
+    {
+      "id": "book-11",
+      "title": "Verity",
+      "author": "Colleen Hoover",
+      "price": 449,
+      "category": "Thriller",
+      "description": "A writer discovers disturbing secrets while completing another author's unfinished work.",
+      "stock": 8
+    },
+    {
+      "id": "book-12",
+      "title": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "price": 399,
+      "category": "Thriller",
+      "description": "A mysterious disappearance seen through the eyes of a daily train passenger.",
+      "stock": 14
+    },
+    {
+      "id": "book-13",
+      "title": "The Housemaid",
+      "author": "Freida McFadden",
+      "price": 399,
+      "category": "Thriller",
+      "description": "A housemaid discovers that the family she works for is hiding dangerous secrets.",
+      "stock": 15
+    },
+    {
+      "id": "book-14",
+      "title": "The Woman in the Window",
+      "author": "A. J. Finn",
+      "price": 449,
+      "category": "Thriller",
+      "description": "A woman watching her neighbors believes she has witnessed something terrible.",
+      "stock": 9
+    },
+    {
+      "id": "book-15",
+      "title": "Behind Closed Doors",
+      "author": "B. A. Paris",
+      "price": 399,
+      "category": "Thriller",
+      "description": "A seemingly perfect marriage hides a disturbing reality behind closed doors.",
+      "stock": 11
+    },
+    {
+      "id": "book-16",
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "price": 549,
+      "category": "Mystery",
+      "description": "A journalist and a brilliant hacker investigate a decades-old disappearance.",
+      "stock": 7
+    },
+    {
+      "id": "book-17",
+      "title": "Big Little Lies",
+      "author": "Liane Moriarty",
+      "price": 449,
+      "category": "Mystery",
+      "description": "Secrets and lies emerge among a group of parents connected by a mysterious death.",
+      "stock": 10
+    },
+    {
+      "id": "book-18",
+      "title": "Rebecca",
+      "author": "Daphne du Maurier",
+      "price": 399,
+      "category": "Mystery",
+      "description": "A young bride enters a mansion haunted by the memory of her husband's first wife.",
+      "stock": 12
+    },
+    {
+      "id": "book-19",
+      "title": "The Murder of Roger Ackroyd",
+      "author": "Agatha Christie",
+      "price": 349,
+      "category": "Mystery",
+      "description": "Hercule Poirot investigates one of the most famous mysteries in detective fiction.",
+      "stock": 10
+    },
+    {
+      "id": "book-20",
+      "title": "And Then There Were None",
+      "author": "Agatha Christie",
+      "price": 399,
+      "category": "Mystery",
+      "description": "Ten strangers are trapped on an island while a mysterious killer begins eliminating them.",
+      "stock": 13
+    },
+    {
+      "id": "book-21",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 299,
+      "category": "Literary Fiction",
+      "description": "A classic story of wealth, ambition, love and the American dream.",
+      "stock": 20
+    },
+    {
+      "id": "book-22",
+      "title": "A Little Life",
+      "author": "Hanya Yanagihara",
+      "price": 699,
+      "category": "Tragedy",
+      "description": "A deeply emotional story following friendship, trauma and adulthood.",
+      "stock": 6
+    },
+    {
+      "id": "book-23",
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "price": 449,
+      "category": "Tragedy",
+      "description": "A young girl discovers the power of words during wartime Germany.",
+      "stock": 12
+    },
+    {
+      "id": "book-24",
+      "title": "All the Light We Cannot See",
+      "author": "Anthony Doerr",
+      "price": 549,
+      "category": "Tragedy",
+      "description": "Two young people experience the Second World War from very different perspectives.",
+      "stock": 8
+    },
+    {
+      "id": "book-25",
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "price": 449,
+      "category": "Tragedy",
+      "description": "A powerful story of friendship, guilt, redemption and family.",
+      "stock": 13
+    },
+    {
+      "id": "book-26",
+      "title": "A Thousand Splendid Suns",
+      "author": "Khaled Hosseini",
+      "price": 449,
+      "category": "Tragedy",
+      "description": "Two women form a powerful bond while facing hardship in Afghanistan.",
+      "stock": 11
+    },
+    {
+      "id": "book-27",
+      "title": "The Perks of Being a Wallflower",
+      "author": "Stephen Chbosky",
+      "price": 399,
+      "category": "Coming of Age",
+      "description": "A teenager navigates friendship, love, school and the challenges of growing up.",
+      "stock": 14
+    },
+    {
+      "id": "book-28",
+      "title": "The Catcher in the Rye",
+      "author": "J. D. Salinger",
+      "price": 349,
+      "category": "Coming of Age",
+      "description": "A teenager struggles with identity, isolation and the transition into adulthood.",
+      "stock": 15
+    },
+    {
+      "id": "book-29",
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "price": 449,
+      "category": "Fantasy",
+      "description": "A magical library allows a woman to explore the lives she might have lived.",
+      "stock": 12
+    },
+    {
+      "id": "book-30",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 299,
+      "category": "Philosophy",
+      "description": "A young shepherd follows his dreams in search of a hidden treasure.",
+      "stock": 20
+    },
+    {
+      "id": "book-31",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 499,
+      "category": "Self Help",
+      "description": "A practical guide to building good habits and breaking bad ones.",
+      "stock": 18
+    },
+    {
+      "id": "book-32",
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "price": 399,
+      "category": "Finance",
+      "description": "Lessons about money, behavior, wealth and financial decision-making.",
+      "stock": 16
+    },
+    {
+      "id": "book-33",
+      "title": "The 48 Laws of Power",
+      "author": "Robert Greene",
+      "price": 599,
+      "category": "Psychology",
+      "description": "A study of power, strategy and human behavior.",
+      "stock": 10
+    },
+    {
+      "id": "book-34",
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "price": 599,
+      "category": "Psychology",
+      "description": "An exploration of the two systems that shape human thought and decision-making.",
+      "stock": 9
+    },
+    {
+      "id": "book-35",
+      "title": "The Laws of Human Nature",
+      "author": "Robert Greene",
+      "price": 649,
+      "category": "Psychology",
+      "description": "An examination of human behavior, emotions and social relationships.",
+      "stock": 8
+    },
+    {
+      "id": "book-36",
+      "title": "Man's Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "price": 349,
+      "category": "Psychology",
+      "description": "A reflection on suffering, purpose and the search for meaning.",
+      "stock": 17
+    },
+    {
+      "id": "book-37",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "price": 399,
+      "category": "Self Help",
+      "description": "A direct approach to values, responsibility and living a meaningful life.",
+      "stock": 14
+    },
+    {
+      "id": "book-38",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "price": 449,
+      "category": "Productivity",
+      "description": "Strategies for developing focused work and improving productivity.",
+      "stock": 12
+    },
+    {
+      "id": "book-39",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "price": 399,
+      "category": "Finance",
+      "description": "Lessons about money, investing and financial independence.",
+      "stock": 18
+    },
+    {
+      "id": "book-40",
+      "title": "The Intelligent Investor",
+      "author": "Benjamin Graham",
+      "price": 699,
+      "category": "Finance",
+      "description": "A classic guide to value investing and long-term financial thinking.",
+      "stock": 7
+    },
+    {
+      "id": "book-41",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 699,
+      "category": "Technology",
+      "description": "Practical principles for writing readable, maintainable software.",
+      "stock": 8
+    },
+    {
+      "id": "book-42",
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas and Andrew Hunt",
+      "price": 799,
+      "category": "Technology",
+      "description": "Practical software development principles for becoming a better programmer.",
+      "stock": 6
+    },
+    {
+      "id": "book-43",
+      "title": "Don't Make Me Think",
+      "author": "Steve Krug",
+      "price": 549,
+      "category": "Technology",
+      "description": "A practical introduction to intuitive and user-friendly web design.",
+      "stock": 9
+    },
+    {
+      "id": "book-44",
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "price": 499,
+      "category": "Science",
+      "description": "An accessible exploration of the universe, time and modern physics.",
+      "stock": 11
+    },
+    {
+      "id": "book-45",
+      "title": "The Selfish Gene",
+      "author": "Richard Dawkins",
+      "price": 599,
+      "category": "Science",
+      "description": "An influential exploration of evolution and genetics.",
+      "stock": 8
+    },
+    {
+      "id": "book-46",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "price": 549,
+      "category": "Science Fiction",
+      "description": "An epic science-fiction story of politics, survival and destiny on a desert planet.",
+      "stock": 12
+    },
+    {
+      "id": "book-47",
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "price": 399,
+      "category": "Dystopian",
+      "description": "A young girl is forced to compete in a brutal televised survival competition.",
+      "stock": 16
+    },
+    {
+      "id": "book-48",
+      "title": "1984",
+      "author": "George Orwell",
+      "price": 299,
+      "category": "Dystopian",
+      "description": "A classic dystopian novel about surveillance, control and freedom.",
+      "stock": 20
+    },
+    {
+      "id": "book-49",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "price": 349,
+      "category": "Dark Fiction",
+      "description": "A dark classic about beauty, morality and the consequences of corruption.",
+      "stock": 13
+    },
+    {
+      "id": "book-50",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "price": 299,
+      "category": "Dark Fiction",
+      "description": "A classic Gothic tale about ambition, science and the consequences of creation.",
+      "stock": 18
+    }
+  ],
+  "cart": [],
+  "orders": []
+}
