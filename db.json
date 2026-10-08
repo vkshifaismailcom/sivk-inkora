@@ -452,6 +452,26 @@
       "stock": 18
     }
   ],
-  "cart": [],
-  "orders": []
+  "cart": [
+    {
+      "id": "1iOD5bKwz4s",
+      "title": "Me Before You",
+      "author": "Jojo Moyes",
+      "price": 399,
+      "category": "Romance",
+      "description": "An emotional story about two people whose lives change after meeting each other.",
+      "stock": 10
+    },
+    {
+      "id": "-HF3e4kArK8",
+      "title": "A Little Life",
+      "author": "Hanya Yanagihara",
+      "price": 699,
+      "category": "Tragedy",
+      "description": "A deeply emotional story following friendship, trauma and adulthood.",
+      "stock": 6
+    }
+  ],
+  "orders": [],
+  "$schema": "./node_modules/json-server/schema.json"
 }
