@@ -9,11 +9,17 @@
     const savedProducts=useSelector((state)=>state.products)
     const[search,setSearch]=useState("");
     const[category,setCategory]=useState("All");
+    const[sortOrder, setSortOrder]=useState("default");
     const filteredProducts=savedProducts.filter((note)=>{
         const matchesSearch=note.title.toLowerCase().includes(search.toLowerCase())||note.author.toLowerCase().includes(search.toLowerCase())
         const matchesCategory=category==="All"||note.category===category;
         return matchesSearch&&matchesCategory
-    })                                                                                                                                                                         
+    })               
+    const sortedProducts=[...filteredProducts].sort((a,b)=>{
+        if(sortOrder==="lowToHigh"){return a.price-b.price}
+        if(sortOrder==="highToLow"){return b.price-a.price}
+        return 0;
+    })                                                                                                                                                
     const {data:products,isLoading,isError}=useQuery({
         queryKey:["products"],
         queryFn:getProducts})
@@ -40,7 +46,12 @@
             <option value="Science">Science</option>
 
             </select>
-            {filteredProducts.map((product)=>(
+            <select value={sortOrder} onChange={((e)=>setSortOrder(e.target.value))}>
+                <option value="default">Default Order</option>
+                <option value="lowToHigh">Price: Low to High</option>
+                <option value="highToLow">Price: High to Low</option>
+            </select>
+            {sortedProducts.map((product)=>(
                 
                     <ProductCard key={product.id} product={product} />
                
