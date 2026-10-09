@@ -13,7 +13,7 @@
     })
     useEffect(()=>{
     if(products){dispatch(setProducts(products))}
-    }),[products,dispatch]
+    },[products,dispatch])
     if(isLoading){return <p>Loading books...</p>}
     if(isError){return <p>Failed to load books. Please try again</p>}
 
