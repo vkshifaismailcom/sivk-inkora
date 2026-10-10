@@ -40,7 +40,7 @@ function Register(){
         <form onSubmit={handleRegister}>
             <input type="text" placeholder="Full name" value={name} onChange={((e)=>setName(e.target.value))} required/>
             <input type="email" placeholder="Email address" value={email} onChange={((e)=>setEmail(e.target.value))} required/>
-            <input type={showPassword?"text":"password"} placeholder="Password" value={password} onChange={((e)=>setPassword(e.target.value))} required minLength={6}/>
+            <input type={showPassword?"text":"password"} placeholder="Password" value={password} onChange={((e)=>setPassword(e.target.value))} required minLength={6} />
             <button type="button" onClick={()=>setShowPassword(!showPassword)}>{showPassword ? "Hide" : "Show"}</button>
         <button type="submit">Register</button>
         </form>

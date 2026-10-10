@@ -6,7 +6,7 @@
  import ProductCard from "../components/ProductCard";
  function Products(){
     const dispatch=useDispatch();
-    const savedProducts=useSelector((state)=>state.products)
+    const savedProducts=useSelector((state)=>state.products)||[]
     const[search,setSearch]=useState("");
     const[category,setCategory]=useState("All");
     const[sortOrder, setSortOrder]=useState("default");

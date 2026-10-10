@@ -1,4 +1,5 @@
 import {useQuery} from "@tanstack/react-query";
+import { Link } from "react-router-dom";
 import { getCart,removeFromCart } from "../services/cartService"; 
 function Cart(){
     const {data:cart}=useQuery({
@@ -20,6 +21,11 @@ function Cart(){
                         <button onClick={()=>handleRemove(product.id)}>Remove</button>
                 </div>
             ))}
+            {cart.length > 0 && (
+  <Link to="/checkout">
+    Proceed to Checkout →
+  </Link>
+)}
         </div>
     )
 }
