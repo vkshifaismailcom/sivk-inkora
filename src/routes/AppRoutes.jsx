@@ -6,6 +6,7 @@ import Register from "../pages/Register";
 import Login from "../pages/Login";
 import Orders from "../pages/Orders";
 import Checkout from "../pages/Checkout";
+import Wishlist from "../pages/Wishlist";
 function AppRoutes(){
     return(
         <Routes>
@@ -17,6 +18,7 @@ function AppRoutes(){
 <Route path="/login" element={< Login/>}/>
 <Route path="/orders" element={<Orders />} />
 <Route path="/checkout" element={<Checkout />} />
+<Route path="/wishlist" element={<Wishlist />} />
         </Routes>
     )
 }

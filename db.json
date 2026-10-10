@@ -615,6 +615,15 @@
       "id": "hBSiiCT4CJA"
     }
   ],
-  "wishlist": [],
+  "wishlist": [
+    {
+      "productId": "book-1",
+      "title": "It Ends with Us",
+      "author": "Colleen Hoover",
+      "price": 399,
+      "category": "Romance",
+      "id": "TO7fO3QbHAo"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

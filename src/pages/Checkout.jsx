@@ -37,4 +37,4 @@ return (
 <h2>Total: ₹{total}</h2>
 <button onClick={handlePlaceOrder}>Place Order</button></>)}</div>);
 }
-export default Checkout;    ``
+export default Checkout;  

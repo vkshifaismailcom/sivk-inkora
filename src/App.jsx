@@ -12,6 +12,8 @@ function App() {
         <Link to="/cart">My Cart 🛒</Link>
         {" | "}
         <Link to="/orders">My orders</Link>
+        {" | "}
+        <Link to="/wishlist">Wishlist ♡</Link>
       </nav>
 
       <AppRoutes />
