@@ -11,64 +11,6 @@
       "email": "vkshifaismail.com|@gmail.com",
       "password": "99466214223",
       "id": "ZC2V2wyFtxE"
-    },
-    {
-      "userId": "VLTBvOwXGUo",
-      "customerName": "shifa ismail vk",
-      "email": "vkshifaismail.com@gmail.com",
-      "items": [
-        {
-          "id": "1iOD5bKwz4s",
-          "title": "Me Before You",
-          "author": "Jojo Moyes",
-          "price": 399,
-          "category": "Romance",
-          "description": "An emotional story about two people whose lives change after meeting each other.",
-          "stock": 10
-        },
-        {
-          "id": "-HF3e4kArK8",
-          "title": "A Little Life",
-          "author": "Hanya Yanagihara",
-          "price": 699,
-          "category": "Tragedy",
-          "description": "A deeply emotional story following friendship, trauma and adulthood.",
-          "stock": 6
-        },
-        {
-          "id": "kJoAn2d9VjA",
-          "title": "It Ends with Us",
-          "author": "Colleen Hoover",
-          "price": 399,
-          "category": "Romance",
-          "description": "A powerful story about love, choices and difficult relationships.",
-          "stock": 15
-        }
-      ],
-      "total": 1497,
-      "status": "Placed",
-      "createdAt": "2026-10-10T18:34:40.178Z",
-      "id": "V_rd8Eu2NEM"
-    },
-    {
-      "userId": "VLTBvOwXGUo",
-      "customerName": "shifa ismail vk",
-      "email": "vkshifaismail.com@gmail.com",
-      "items": [
-        {
-          "id": "istvUMk3W3w",
-          "title": "It Ends with Us",
-          "author": "Colleen Hoover",
-          "price": 399,
-          "category": "Romance",
-          "description": "A powerful story about love, choices and difficult relationships.",
-          "stock": 15
-        }
-      ],
-      "total": 399,
-      "status": "Placed",
-      "createdAt": "2026-10-10T18:35:18.579Z",
-      "id": "nGTlCPdeNGo"
     }
   ],
   "products": [
@@ -524,6 +466,155 @@
     }
   ],
   "cart": [],
-  "orders": [],
+  "orders": [
+    {
+      "userId": "VLTBvOwXGUo",
+      "customerName": "shifa ismail vk",
+      "email": "vkshifaismail.com@gmail.com",
+      "items": [
+        {
+          "id": "1iOD5bKwz4s",
+          "title": "Me Before You",
+          "author": "Jojo Moyes",
+          "price": 399,
+          "category": "Romance",
+          "description": "An emotional story about two people whose lives change after meeting each other.",
+          "stock": 10
+        },
+        {
+          "id": "-HF3e4kArK8",
+          "title": "A Little Life",
+          "author": "Hanya Yanagihara",
+          "price": 699,
+          "category": "Tragedy",
+          "description": "A deeply emotional story following friendship, trauma and adulthood.",
+          "stock": 6
+        },
+        {
+          "id": "kJoAn2d9VjA",
+          "title": "It Ends with Us",
+          "author": "Colleen Hoover",
+          "price": 399,
+          "category": "Romance",
+          "description": "A powerful story about love, choices and difficult relationships.",
+          "stock": 15
+        }
+      ],
+      "total": 1497,
+      "status": "Placed",
+      "createdAt": "2026-10-10T18:34:40.178Z",
+      "id": "V_rd8Eu2NEM"
+    },
+    {
+      "userId": "VLTBvOwXGUo",
+      "customerName": "shifa ismail vk",
+      "email": "vkshifaismail.com@gmail.com",
+      "items": [
+        {
+          "id": "istvUMk3W3w",
+          "title": "It Ends with Us",
+          "author": "Colleen Hoover",
+          "price": 399,
+          "category": "Romance",
+          "description": "A powerful story about love, choices and difficult relationships.",
+          "stock": 15
+        }
+      ],
+      "total": 399,
+      "status": "Placed",
+      "createdAt": "2026-10-10T18:35:18.579Z",
+      "id": "nGTlCPdeNGo"
+    },
+    {
+      "userId": "VLTBvOwXGUo",
+      "customerName": "shifa ismail vk",
+      "email": "vkshifaismail.com@gmail.com",
+      "items": [
+        {
+          "id": "Gi0x_WbLqf4",
+          "title": "It Ends with Us",
+          "author": "Colleen Hoover",
+          "price": 399,
+          "category": "Romance",
+          "description": "A powerful story about love, choices and difficult relationships.",
+          "stock": 15
+        }
+      ],
+      "total": 399,
+      "status": "Placed",
+      "createdAt": "2026-10-10T18:40:51.620Z",
+      "id": "ahW8PhZI_SM"
+    },
+    {
+      "userId": "VLTBvOwXGUo",
+      "customerName": "shifa ismail vk",
+      "email": "vkshifaismail.com@gmail.com",
+      "items": [
+        {
+          "id": "8JYwelyC8l4",
+          "title": "It Ends with Us",
+          "author": "Colleen Hoover",
+          "price": 399,
+          "category": "Romance",
+          "description": "A powerful story about love, choices and difficult relationships.",
+          "stock": 15
+        }
+      ],
+      "total": 399,
+      "status": "Placed",
+      "createdAt": "2026-10-10T18:43:59.567Z",
+      "id": "8DX78k9NRiA"
+    },
+    {
+      "userId": "VLTBvOwXGUo",
+      "customerName": "shifa ismail vk",
+      "email": "vkshifaismail.com@gmail.com",
+      "items": [
+        {
+          "id": "ql0L-_aMbHY",
+          "title": "The Love Hypothesis",
+          "author": "Ali Hazelwood",
+          "price": 449,
+          "category": "Romance",
+          "description": "A romantic comedy involving a scientist, a fake relationship and unexpected feelings.",
+          "stock": 12
+        },
+        {
+          "id": "mPNK-7Z5hnM",
+          "title": "The Love Hypothesis",
+          "author": "Ali Hazelwood",
+          "price": 449,
+          "category": "Romance",
+          "description": "A romantic comedy involving a scientist, a fake relationship and unexpected feelings.",
+          "stock": 12
+        }
+      ],
+      "total": 898,
+      "status": "Placed",
+      "createdAt": "2026-10-10T18:51:26.212Z",
+      "id": "jtoCfCqMVwY"
+    },
+    {
+      "userId": "VLTBvOwXGUo",
+      "customerName": "shifa ismail vk",
+      "email": "vkshifaismail.com@gmail.com",
+      "items": [
+        {
+          "id": "p-_UipK9hwQ",
+          "title": "It Ends with Us",
+          "author": "Colleen Hoover",
+          "price": 399,
+          "category": "Romance",
+          "description": "A powerful story about love, choices and difficult relationships.",
+          "stock": 15
+        }
+      ],
+      "total": 399,
+      "status": "Placed",
+      "createdAt": "2026-10-10T18:54:02.885Z",
+      "id": "hBSiiCT4CJA"
+    }
+  ],
+  "wishlist": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

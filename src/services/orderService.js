@@ -1,10 +1,13 @@
 import axios from "axios";
-const ordersURL="http://localhost:3000/users";
-export const getOrders=async(userId)=>{
-    const response=await axios.get(`${ordersURL}?userId=${userId}`)
-return response.data;
-}
+
+const ordersURL = "http://localhost:3000/orders";
+
+export const getOrders = async (userId) => {
+    const response = await axios.get(`${ordersURL}?userId=${userId}`);
+    return response.data;
+};
+
 export const createOrder = async (order) => {
-const response = await axios.post(ordersURL, order);
-return response.data;
+    const response = await axios.post(ordersURL, order);
+    return response.data;
 };
