@@ -1,6 +1,8 @@
 import {useQuery,useQueryClient} from "@tanstack/react-query";
 import {Link} from "react-router-dom";
 import {getCart,removeFromCart,updateCartQuantity} from "../services/cartService";
+import {toast} from "react-toastify";
+
 function Cart(){
 const queryClient=useQueryClient();
 const user=JSON.parse(localStorage.getItem("user")||"null");
@@ -15,8 +17,9 @@ const handleRemove=async(id)=>{
 try{
 await removeFromCart(id);
 await refreshCart();
+toast.success("Book removed from cart.");
 }catch(error){
-alert("Could not remove the book.");
+toast.error("Could not remove the book.");
 }
 };
 const handleQuantity=async(book,change)=>{
@@ -26,14 +29,14 @@ await handleRemove(book.id);
 return;
 }
 if(quantity>Number(book.stock)){
-alert("Only "+book.stock+" copies are available.");
+toast.warning("Only "+book.stock+" copies are available.");
 return;
 }
 try{
 await updateCartQuantity(book.id,quantity);
 await refreshCart();
 }catch(error){
-alert("Could not update quantity.");
+toast.error("Could not update quantity.");
 }
 };
 if(isLoading){return <p>Loading...</p>}
