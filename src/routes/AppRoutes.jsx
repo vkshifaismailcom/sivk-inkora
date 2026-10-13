@@ -8,13 +8,14 @@ import Orders from "../pages/Orders";
 import Checkout from "../pages/Checkout";
 import Wishlist from "../pages/Wishlist";
 import Account from "../pages/Account";
+import CartDesign from "../pages/CartDesign";
 function AppRoutes(){
     return(
         <Routes>
 <Route path="/" element={<h1>sivk inkora</h1>} />
 <Route path="/products" element={<Products/>} />
 <Route path="/products/:id" element={<ProductDetails />} />
-<Route path="/cart" element={<Cart />} />
+<Route path="/cart" element={<CartDesign />} />
 <Route path="/register" element={<Register />} />
 <Route path="/login" element={< Login/>}/>
 <Route path="/orders" element={<Orders />} />

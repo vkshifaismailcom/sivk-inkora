@@ -11,6 +11,12 @@
       "email": "vkshifaismail.com|@gmail.com",
       "password": "99466214223",
       "id": "ZC2V2wyFtxE"
+    },
+    {
+      "name": "sivk",
+      "email": "sivk.com@gmail.com",
+      "password": "9946621423",
+      "id": "sQERiTgF0XY"
     }
   ],
   "products": [
@@ -465,7 +471,56 @@
       "stock": 18
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "productId": "book-11",
+      "title": "Verity",
+      "author": "Colleen Hoover",
+      "price": 449,
+      "category": "Thriller",
+      "description": "A writer discovers disturbing secrets while completing another author's unfinished work.",
+      "stock": 8,
+      "quantity": 1,
+      "userId": "sQERiTgF0XY",
+      "id": "skuVzm5LcIA"
+    },
+    {
+      "productId": "book-1",
+      "title": "It Ends with Us",
+      "author": "Colleen Hoover",
+      "price": 399,
+      "category": "Romance",
+      "description": "A powerful story about love, choices and difficult relationships.",
+      "stock": 15,
+      "quantity": 3,
+      "userId": "sQERiTgF0XY",
+      "id": "0NY5gXa44Vo"
+    },
+    {
+      "productId": "book-2",
+      "title": "The Love Hypothesis",
+      "author": "Ali Hazelwood",
+      "price": 449,
+      "category": "Romance",
+      "description": "A romantic comedy involving a scientist, a fake relationship and unexpected feelings.",
+      "stock": 12,
+      "quantity": 4,
+      "userId": "sQERiTgF0XY",
+      "id": "QpeaWFCuIEo"
+    },
+    {
+      "productId": "book-6",
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "price": 449,
+      "category": "Romance",
+      "description": "A story about connection, relationships and the complicated nature of growing up.",
+      "stock": 11,
+      "quantity": 1,
+      "userId": "sQERiTgF0XY",
+      "id": "4q2ofExTsqA"
+    }
+  ],
   "orders": [
     {
       "userId": "VLTBvOwXGUo",
@@ -613,16 +668,39 @@
       "status": "Placed",
       "createdAt": "2026-10-10T18:54:02.885Z",
       "id": "hBSiiCT4CJA"
+    },
+    {
+      "userId": "sQERiTgF0XY",
+      "customerName": "sivk",
+      "email": "sivk.com@gmail.com",
+      "items": [
+        {
+          "productId": "book-1",
+          "title": "It Ends with Us",
+          "author": "Colleen Hoover",
+          "price": 399,
+          "category": "Romance",
+          "description": "A powerful story about love, choices and difficult relationships.",
+          "stock": 15,
+          "quantity": 3,
+          "userId": "sQERiTgF0XY",
+          "id": "WRUFTzNHtI4"
+        }
+      ],
+      "total": 399,
+      "status": "Cancelled",
+      "createdAt": "2026-10-12T05:26:23.251Z",
+      "id": "HPD4E1X3WyI"
     }
   ],
   "wishlist": [
     {
-      "productId": "book-1",
-      "title": "It Ends with Us",
-      "author": "Colleen Hoover",
-      "price": 399,
+      "productId": "book-2",
+      "title": "The Love Hypothesis",
+      "author": "Ali Hazelwood",
+      "price": 449,
       "category": "Romance",
-      "id": "TO7fO3QbHAo"
+      "id": "49OKFsqnQ5g"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
